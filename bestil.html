@@ -10,7 +10,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="/nystylesheet.css" rel=stylesheet>
     </head>
-
+    <body>
+      <style>
+        html{
+            background: url(images/bmwelectra.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          } 
+      </style>
     <body>
 
       <!-- Menu -->
@@ -55,21 +64,26 @@
         </h2>
         </div>
 
-
-        <div class="container">
-          <form action="index.html" class="form-container">
-          <input type="text" id="email" name="email" placeholder="E-mail">
-      
-          <input type="text" id="navn" name="navn" placeholder="navn">
+        <section class="box">
+          <div class="container">
+            <form action="index.html" class="form-container">
+            <input type="text" id="email" name="email" placeholder="E-mail">
         
-          <input type="text" id="telfon nummer" name="alder" placeholder="alder">
-      
-          <input type="BESTIL" class="button" onclick="alert('Tak for din bestilling!');" value="BESTIL">
-          </form>
-        </div>
-        <section class=img>
+            <input type="text" id="navn" name="navn" placeholder="navn">
           
-
+            <input type="text" id="telfon nummer" name="alder" placeholder="alder">
+            </form>
+          </div>
+          <div class="valg">
+            <p>Farve</p>
+            <p>Faelge</p>
+            <p>Interior</p>
+          </div>
+          <div class="info"> 
+            <p>Forventet lervering</p>
+            <p>Forventet lervering</p>
+            <p>Forventet lervering</p>
+          </div>
         </section>
     <footer class="site-footer">
               <p class="text-justify">Electra.com <i><br>Get Your Affordable Car<br></i></p>

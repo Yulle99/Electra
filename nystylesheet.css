@@ -1,17 +1,37 @@
-html { 
-    background: url(images/bmwelectra.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   }
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+:root {
+--moonlitasteroid:#2C5364;
+--white:#fafafa;
+--black:#030303;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: var(--moonlitasteroid);
+ }
+    
+.form-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;  
+    padding-bottom: 0.7rem;
+    padding-top: 0.4rem;
+    }
+
 .paragraph{
     text-align: center;
     color: #fafafa;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: -45px;
-    font-size: 100%;
+    font-size: 125%;
     }
 
 input[type=text], select, textarea {
@@ -22,10 +42,26 @@ input[type=text], select, textarea {
     padding: 12px; 
     background: rgba(255, 255, 255, 0.584);
     box-sizing: border-box;
-    margin-top: 6%;
-    margin-left: 10%;
+    margin-top:0.3rem;
+    /*margin-left: 10%;*/
     border: none;
     border-radius: 50px;
     text-align: center;
 
+  }
+  .box{
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    margin-left: 1rem;   
+  }
+
+  .valg{
+    background-color: var(--moonlitasteroid);
+    padding: 2.99rem;
+    margin-left: 4rem;
+  }
+
+  .info{
+    background-color: var(--moonlitasteroid);
   }
